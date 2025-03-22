@@ -1,12 +1,37 @@
-# React + Vite
+# JSON Placeholder API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple JSON placeholder API for testing and prototyping, providing mock data for users, posts, comments, and more.
 
-Currently, two official plugins are available:
+🔗 **API Name:** [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+To use the JSON Placeholder API, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/RudrakshDev/json-placeholder-api.git
+   ```
+
+2. **Navigate to the Project Directory:**:
+   ```bash
+   cd json-placeholder-api
+   ```
+
+3. **Install Dependencies:**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the Server:**:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to http://localhost:Port-Number to start using the API.
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/1e402802-cbe7-45e3-9b11-71f2af216dd4)
+
+## Demo
+https://github.com/user-attachments/assets/ae88446b-43a8-4522-b94d-7a6461364328
