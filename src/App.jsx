@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { getPosts } from './api/GetPosts'
+import { getPosts } from './api/getPosts'
 import CarouselComponent from './Components/Carousel';
 import Loader from './Components/Loader';
 import GithubProfileIcon from './Components/GithubProfileIcon';
