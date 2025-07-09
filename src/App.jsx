@@ -4,7 +4,7 @@ import { getPosts } from './api/getPosts'
 import CarouselComponent from './Components/Carousel';
 import Loader from './Components/Loader';
 import GithubProfileIcon from './Components/GithubProfileIcon';
-import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
 
@@ -31,17 +31,16 @@ function App() {
   // console.log(data);
   return (
     <>
-      <div className="github-icon-container">
-        <GithubProfileIcon />
-      </div>
+    
+    <div className="github-icon-container">
+      <GithubProfileIcon />
+    </div>
 
       <a href="https://jsonplaceholder.typicode.com/"><h2>JSON Placeholder API Demo</h2></a>
 
       {
         data ? <CarouselComponent posts={data} onLastSlide={fetchRandomPosts} /> : <Loader />
       }
-
-      <Analytics />
 
     </>
   )
