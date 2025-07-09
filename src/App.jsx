@@ -31,7 +31,6 @@ function App() {
   // console.log(data);
   return (
     <>
-      <Analytics />
       <div className="github-icon-container">
         <GithubProfileIcon />
       </div>
@@ -41,6 +40,8 @@ function App() {
       {
         data ? <CarouselComponent posts={data} onLastSlide={fetchRandomPosts} /> : <Loader />
       }
+
+      <Analytics />
 
     </>
   )
